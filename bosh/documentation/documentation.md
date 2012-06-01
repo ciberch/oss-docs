@@ -34,7 +34,7 @@ The IaaS interface plugins communicate through a Cloud Provider Interface (CPI) 
 	configure_networks
 	create_disk / delete_disk / attach_disk / detach_disk
 
-Please refer to the API documentation in these files for further explanation of the CPI primitives.
+Please refer to the [API documentation](https://github.com/cloudfoundry/bosh/blob/master/cpi/lib/cloud.rb) in these files for further explanation of the CPI primitives.
 
 ## BOSH Director ##
 
