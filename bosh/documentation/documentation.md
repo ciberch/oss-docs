@@ -42,7 +42,7 @@ The Director is the core orchestrating component in BOSH which controls creation
 
 ## BOSH Agent ##
 
-BOSH Agents listen for instructions from the BOSH Director. Every VM contains an Agent. Through the Director-Agent interaction, VMs are given [Jobs][], or roles, within Cloud Foundry. If the VM's job is to run MySQL, for example, the Director will send instructions to the Agent about which packages must be installed and what the configurations for those packages are.
+BOSH Agents listen for instructions from the BOSH Director. Every VM contains an Agent. Through the Director-Agent interaction, VMs are given [Jobs](#jobs), or roles, within Cloud Foundry. If the VM's job is to run MySQL, for example, the Director will send instructions to the Agent about which packages must be installed and what the configurations for those packages are.
 
 ## BOSH CLI ##
 
@@ -56,7 +56,7 @@ A full overview of BOSH commands and installation appears in the [BOSH Command L
 
 ## Stemcells ##
 
-A Stemcell is a VM template with an embedded [BOSH Agent][] The Stemcell used for Cloud Foundry is a standard Ubuntu distribution. Stemcells are uploaded using the [BOSH CLI][] and used by the [BOSH Director][] when creating VMs through the [Cloud Provider Interface][] (CPI). When the Director creates a VM through the CPI, it will pass along configurations for networking and storage, as well as the location and credentials for the [Message Bus][] and the [Blobstore][].
+A Stemcell is a VM template with an embedded [BOSH Agent](#BoshAgent) The Stemcell used for Cloud Foundry is a standard Ubuntu distribution. Stemcells are uploaded using the [BOSH CLI][] and used by the [BOSH Director][] when creating VMs through the [Cloud Provider Interface][] (CPI). When the Director creates a VM through the CPI, it will pass along configurations for networking and storage, as well as the location and credentials for the [Message Bus][] and the [Blobstore][].
 
 ## Releases ##
 
