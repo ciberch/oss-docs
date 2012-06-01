@@ -104,7 +104,7 @@ The BOSH Health Monitor receives health status and life cycle events from the [B
 
 ## Message Bus ##
 
-BOSH uses the [NATS](http://github.com/dcollison/nats) message bus for command and control.
+BOSH uses the [NATS](https://github.com/derekcollison/nats) message bus for command and control.
 
 # Using BOSH #
 
