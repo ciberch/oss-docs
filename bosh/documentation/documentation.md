@@ -53,7 +53,7 @@ The BOSH Command Line Interface is how users interact with BOSH using a terminal
            [--force] [--no-color] [--skip-director-checks] [--quiet]
            [--non-interactive]
 
-A full overview of BOSH commands and installation appears in the [BOSH Command Line Interface](#bosh-cli) and [BOSH installation](#bosh-installation) sections.
+A full overview of BOSH commands and installation appears in the [BOSH Command Line Interface](http://rubygems.org/gems/bosh_cli) and [BOSH installation](#bosh-installation) sections.
 
 ## Stemcells ##
 
